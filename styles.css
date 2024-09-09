@@ -5,6 +5,13 @@ body {
     font-family: sans-serif; /* Apply sans-serif to the whole page */
 }
 
+.myDiv {
+  border: 5px outset blue;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+
 
 /* Zebra-striped table */
 table tr:nth-child(odd) {
