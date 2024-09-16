@@ -1,0 +1,46 @@
+.header {
+    margin-left: 200px; /* Push header to the right of the sidebar */
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.main-content {
+    display: flex;
+    margin-left: 200px; /* Ensure content is to the right of the sidebar */
+    padding: 20px;
+}
+
+.profile-container {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+}
+
+.footer {
+    margin-top: auto; /* Push footer to the bottom of the page */
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
