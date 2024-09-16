@@ -1,0 +1,71 @@
+* { /*makes sure margin and padding of whole page is 0 so bars and content can be placed correctly*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #333; /*text color*/
+}
+
+/*sidebar class*/
+.sidebar {
+    position: fixed; /*allows to scroll with it being in place*/
+    width: 275px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/*header class*/
+.header {
+    margin-left: 275px; /*puts header to right of sidebar*/
+    background-color: #767676;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*main container that is right of the sidebar*/
+.main-content {
+    margin-left: 275px; /*puts it to the right of sidebar*/
+    padding: 20px;
+}
+
+/*below are containers to be put in main cotnainer*/
+.profile-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+.content-container { 
+    padding: 20px;
+    margin-bottom: 20px; 
+    background-color: #f0f0f0;
+}
+.content-container ul,
+.content-container ol { /*fixes lists indentation*/
+    padding-left: 40px;
+}
+
+.footer { /*footer*/
+    margin-top: auto; /*puts footer at the bottom of the page*/
+    margin-left:275px;
+    background-color: #767676;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    
+}

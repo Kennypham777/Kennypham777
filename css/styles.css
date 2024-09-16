@@ -1,0 +1,36 @@
+/*centering profile photo*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/*centering h2*/
+h2 {
+    text-align: center;
+}
+
+/*zebra striping tables*/
+table tr:nth-child(odd) {
+    background-color: #bad2ff;
+}
+table tr:nth-child(even) {
+    background-color: #80acff;
+}
+/*padding the table*/
+table td, table th {
+    padding: 10px;
+}
+
+/*link hover effect*/
+a:hover {
+    color: rgb(255, 41, 41);
+    text-decoration: underline;
+}
+
+/*span for special words requirement*/
+span.highlight {
+    color: red;
+    font-weight: bold;
+}
