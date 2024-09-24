@@ -27,6 +27,7 @@ table td, table th {
 a:hover {
     color: rgb(255, 41, 41);
     font-weight: bolder;
+    font-size: 105%;
     text-decoration: underline;
 }
 
