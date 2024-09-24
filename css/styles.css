@@ -26,6 +26,7 @@ table td, table th {
 /*link hover effect*/
 a:hover {
     color: rgb(255, 41, 41);
+    font-weight: bolder;
     text-decoration: underline;
 }
 
